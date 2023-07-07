@@ -1,0 +1,45 @@
+/*styling*/
+body, main {
+	display: flex;
+}
+
+body {
+	flex-direction: column;
+	background-color: coral;
+}
+main {
+	flex: auto;
+	flex-direction: row;
+	padding: 30px;
+}
+header{
+	background-color: aquamarine;
+	color:aqua;
+	padding: 15px;
+}
+.logo{
+	font-size: medium;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 100;
+}
+
+article {
+	flex: 2;
+	overflow: auto;
+	border: 5px;
+	padding: 30px;
+}
+
+aside {
+	background-color: violet;
+	border: 30px;
+	flex: 1;
+	overflow: auto;
+	padding: 30px;
+}
+footer{
+	color:whitesmoke;
+	border: black;
+	padding: 30px;
+	font: 200;
+}
