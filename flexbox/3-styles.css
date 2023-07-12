@@ -375,9 +375,8 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   .secion-latest-news .row {
     flex-direction: row-reverse;
   }
-  /* Section SERVICES
-  ============================= */
-  .section-service.row {
+  
+  .section-services .row {
     flex-wrap: wrap;
   }
   
