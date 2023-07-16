@@ -1,0 +1,424 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    }
+
+.container {
+    height: 1093px;
+    flex-shrink: 0;
+    background-image: url("file:///C:/Users/user/Downloads/Bitmap.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 0;
+    color: #29303D00, #071629;
+
+}
+
+.header {
+    height: 29.461px;
+    flex-shrink: 0;
+    background-color: #29303D00, #071629;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.menu {
+    display: inline-flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
+}
+
+.nav-items {
+    color: #171313;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.main {
+    height: 1055px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    background-color: #29303D00, #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 151px;
+}
+
+.words {
+    color: black;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    height: 60px;
+}
+.button {
+    flex-shrink: 0;
+    border-radius: 22px;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: white;
+    background: #C271FF;
+}
+
+.pros-text {
+    color: black;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+.highlight {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pros {
+    width: 1009px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro {
+    width: 150px;
+    flex-shrink: 0;
+    padding: 20px;
+}
+.avator {
+    width: 150px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+.name {
+    color: #dd1919;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px; /* 150% */
+    width: 150px;
+
+}
+
+.award {
+    color: #d42b2b;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 150px;
+}
+ .testimonials-part {
+    height: 392px;
+    flex-shrink: 0;
+    background-color: #C271FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .testimonials {
+    width: 943px;
+    flex-shrink: 0;
+ }
+ 
+ .avator-2 {
+    width: 160px;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.blockquote {
+    width: 730px;
+    height: 158px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+    width: 730px;
+}
+
+.authorname {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px; /* 152.727% */
+}
+
+.profession {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+}
+
+.tutorials {
+    height: 450px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tutorials-list {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+.tut-1 {
+    width: 255px;
+    height: 335px;
+    flex-shrink: 0;
+    align-content: space-between;
+    padding: 20px;
+}
+
+.tut-mg {
+    width: 255px;
+    height: 154px;
+    flex-shrink: 0;
+    border-radius: 5px 5px 0px 0px;
+    background: #D8D8D8;
+}
+
+.diagonal-smile {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.diagonal-text {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    width: 242px;
+}
+.dg-smile {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    position: absolute;
+}
+.names {
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+    margin-left: 50px;
+    align-items: center;
+}
+ .free_membership {
+    height: 502px;
+    flex-shrink: 0;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin:0%
+
+ }
+ .membership-h2 {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 10px;
+    text-align: center;
+}
+ .membership-h2-free {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+ }
+ .member {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin:0%
+ }
+ .dot {
+    width: 257px;
+    height: 153px;
+    flex-shrink: 0;
+    padding: 50px;
+ }
+
+.dot-img {
+    width: 43.666px;
+    height: 35.353px;
+    flex-shrink: 0;
+}
+.dot-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    width: 256px;
+}
+.dot-text-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    width: 221px;
+}
+ .faq {
+    height: 707px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin:0%
+ }
+ .faq-title {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+ }
+ .faq-questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+  
+ }
+ .questions {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+ }
+ h3 {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .answer {
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+ }
+ .footer {
+    width: 1440px;
+    height: 249px;
+    flex-shrink: 0;
+    background-color: #071629;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .social-icons {
+    width: 130px;
+    height: 30px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+ }
+.copyright {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3516787588596344;
+    margin-top:auto
+}
+ 
